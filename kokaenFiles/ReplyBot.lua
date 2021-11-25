@@ -98,18 +98,18 @@ Dev_Abs(msg.chat_id_, msg.id_, 1, KoKaAeN, 1, 'md')
 return false
 end
 if text == 'تحبني' then
-local joaan = {
+local KoKaAeN = {
 'لافيووو وايد وايد 💘🤸‍♀','احبڪ ڪد الدنيا 🦦💕','هوايه احبك كومات 🤗😍','الحب نخلق الڪ وحدڪ 💘'
 }  
-Dev_Abs(msg.chat_id_, msg.id_, 1, ''..joaan[math.random(#joaan)]..'' , 1, 'md')  
+Dev_Abs(msg.chat_id_, msg.id_, 1, ''..KoKaAeN[math.random(#KoKaAeN)]..'' , 1, 'md')  
 return false
 end
 end
 if text == 'جوعان' and and ChCheck(msg) then
-local joaan = {
+local KoKaAeN = {
 'تعع انا اعزمڪ شعندي غيرڪ حتى تجوع 🥺💘','اصير الڪ اڪل 💘🔥','اطلب بعيوني عمغي وتدلل 💘🦦','اشوي الڪ من ڪلبي 🤍🔥'
 }  
-Dev_Abs(msg.chat_id_, msg.id_, 1, ''..joaan[math.random(#joaan)]..'' , 1, 'md')  
+Dev_Abs(msg.chat_id_, msg.id_, 1, ''..KoKaAeN[math.random(#KoKaAeN)]..'' , 1, 'md')  
 return false
 end
 end
